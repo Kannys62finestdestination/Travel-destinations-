@@ -1,0 +1,70 @@
+
+.contact-page {
+  background: url('contact_bg.jpg') no-repeat center center fixed;
+  background-size: cover;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #fff;
+}
+
+.overlay {
+  background-color: rgba(0, 0, 0, 0.4);
+  padding: 20px;
+  min-height: 100vh;
+}
+
+header, footer {
+  text-align: center;
+  padding: 15px;
+}
+
+.contact-info {
+  text-align: center;
+  margin: 20px;
+  font-size: 18px;
+}
+
+.contact-form {
+  max-width: 500px;
+  margin: auto;
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 20px;
+  border-radius: 10px;
+  backdrop-filter: blur(4px);
+}
+
+.contact-form label {
+  display: block;
+  margin-top: 10px;
+  color: #fff;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: none;
+  border-radius: 5px;
+}
+
+.contact-form button {
+  margin-top: 15px;
+  padding: 10px 20px;
+  background-color: #00aaff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+  background-color: #0077cc;
+
+@media (max-width: 600px) {
+  .contact-form {
+    margin: 10px;}
+
